@@ -1,0 +1,9 @@
+{
+  "name": "react-monorepo",
+  "version": "1.0.0",
+  "description": "test-react-monorepo",
+  "main": "index.js",
+  "repository": "https://github.com/zepplin86/react-monorepo.git",
+  "author": "zepplin86@naver.com",
+  "license": "MIT"
+}
