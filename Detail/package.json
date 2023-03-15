@@ -2,8 +2,24 @@
   "name": "react-monorepo",
   "version": "1.0.0",
   "description": "test-react-monorepo",
-  "main": "index.js",
+  "main": "app.js",
   "repository": "https://github.com/zepplin86/react-monorepo.git",
-  "author": "zepplin86@naver.com",
-  "license": "MIT"
+  "author": "iop2480@naver.com",
+  "license": "MIT",
+  "source": "public/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
